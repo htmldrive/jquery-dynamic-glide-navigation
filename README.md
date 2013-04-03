@@ -3,7 +3,7 @@ Dynamic glide navigation jQuery plugin
 
 [![Dynamic glide navigation jQuery plugin](http://www.htmldrive.net/media/2010/6/29/1277785631.jpg "Dynamic glide navigation jQuery plugin")](http://www.htmldrive.net/items/demo/71/Dynamic-glide-navigation-with-jQuery-plugin "Dynamic glide navigation jQuery plugin")
 
-[**Demo**](http://www.htmldrive.net/items/demo/605/Image-Hover-Move-simple-and-practical-navigation-or-featured-image-jQuery-plugin "Dynamic glide navigation jQuery plugin")
+[**Demo**](http://www.htmldrive.net/items/demo/71/Dynamic-glide-navigation-with-jQuery-plugin "Dynamic glide navigation jQuery plugin")
 
 ##Usage
 **Include js and css files.**
