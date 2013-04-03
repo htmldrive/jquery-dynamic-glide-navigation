@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Demo</title>
+<link href="css/webwidget_menu_glide.css" rel="stylesheet" type="text/css"></link>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/webwidget_menu_glide.js"></script>
+</head>
+    <body>
+    <table width="600">
+  <tr>
+    <td><h2>Demo1</h2><br/><br/>
+<script language="javascript" type="text/javascript">
+            $(function() {
+                $("#webwidget_menu_glide1").webwidget_menu_glide({menu_width:"100", menu_height:"30", menu_text_size:"15", menu_text_color:"#FFF", menu_sprite_color:"red", menu_background_color:"#C91A3E", menu_margin:"5", sprite_speed:"normal", container:"webwidget_menu_glide1" });
+            });
+        </script>
+        <div id="webwidget_menu_glide1" class="webwidget_menu_glide">
+            <div class="webwidget_menu_glide_sprite"></div>
+            <ul>
+                <li><a href="http://www.htmldrive.net/">Home</a></li>
+
+                <li><a href="http://www.htmldrive.net/">News</a></li>
+                <li class="current"><a href="http://www.htmldrive.net/">About</a></li>
+                <li><a href="http://www.htmldrive.net/">Contact</a></li>
+
+                <li><a href="http://www.htmldrive.net/">More...</a></li>
+            </ul>
+            <div style="clear: both"></div>
+
+        </div></td>
+  </tr>
+  <tr>
+    <td><h2>Demo2</h2><br/><br/>
+<script language="javascript" type="text/javascript">
+            $(function() {
+                $("#webwidget_menu_glide2").webwidget_menu_glide({menu_width:"100", menu_height:"30", menu_text_size:"15", menu_text_color:"#CCC", menu_sprite_color:"#666", menu_background_color:"#000", menu_margin:"5", sprite_speed:"normal", container:"webwidget_menu_glide2" });
+            });
+        </script>
+        <div id="webwidget_menu_glide2" class="webwidget_menu_glide">
+            <div class="webwidget_menu_glide_sprite"></div>
+            <ul>
+                <li><a href="http://www.htmldrive.net/">Home</a></li>
+
+                <li><a href="http://www.htmldrive.net/">News</a></li>
+                <li class="current"><a href="http://www.htmldrive.net/">About</a></li>
+                <li><a href="http://www.htmldrive.net/">Contact</a></li>
+
+                <li><a href="http://www.htmldrive.net/">More...</a></li>
+            </ul>
+            <div style="clear: both"></div>
+
+        </div></td>
+  </tr>
+  <tr>
+    <td><h2>Demo3</h2><br/><br/>
+<script language="javascript" type="text/javascript">
+            $(function() {
+                $("#webwidget_menu_glide3").webwidget_menu_glide({menu_width:"100", menu_height:"23", menu_text_size:"12", menu_text_color:"#FFF", menu_sprite_color:"#86C7EF", menu_background_color:"#0F67A1", menu_margin:"2", sprite_speed:"normal", container:"webwidget_menu_glide3" });
+            });
+        </script>
+        <div id="webwidget_menu_glide3" class="webwidget_menu_glide">
+            <div class="webwidget_menu_glide_sprite"></div>
+            <ul>
+                <li><a href="http://www.htmldrive.net/">Home</a></li>
+
+                <li><a href="http://www.htmldrive.net/">News</a></li>
+                <li class="current"><a href="http://www.htmldrive.net/">About</a></li>
+                <li><a href="http://www.htmldrive.net/">Contact</a></li>
+
+                <li><a href="http://www.htmldrive.net/">More...</a></li>
+            </ul>
+            <div style="clear: both"></div>
+
+        </div></td>
+  </tr>
+</table>
+    
+      
+    <h2>Help</h2>
+
+<h4>Step1:include js and css files.</h4>
+&lt;link href=&quot;css/webwidget_menu_glide.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;&lt;/link&gt;<br />
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-1.3.2.min.js&quot;&gt;&lt;/script&gt;<br />
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/webwidget_menu_glide.js&quot;&gt;&lt;/script&gt;<br/>
+<h4>Step2:create html tag.</h4>
+<p>&lt;div id=&quot;<span style="color:red;">webwidget_menu_glide</span>&quot; class=&quot;webwidget_menu_glide&quot;&gt;<br />
+  &lt;div class=&quot;webwidget_menu_glide_sprite&quot;&gt;&lt;/div&gt;<br />
+  &lt;ul&gt;<br />
+  &lt;li&gt;&lt;a href=&quot;http://www.htmldrive.net/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;</p>
+<p> &lt;li&gt;&lt;a href=&quot;http://www.htmldrive.net/&quot;&gt;News&lt;/a&gt;&lt;/li&gt;<br />
+  &lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;http://www.htmldrive.net/&quot;&gt;About&lt;/a&gt;&lt;/li&gt;<br />
+  &lt;li&gt;&lt;a href=&quot;http://www.htmldrive.net/&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;</p>
+<p> &lt;li&gt;&lt;a href=&quot;http://www.htmldrive.net/&quot;&gt;More...&lt;/a&gt;&lt;/li&gt;<br />
+  &lt;/ul&gt;<br />
+  &lt;div style=&quot;clear: both&quot;&gt;&lt;/div&gt;</p>
+<p> &lt;/div&gt;</p>
+<h4>Step3:add script.</h4>
+<p>&lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot;&gt;<br />
+$(function() {<br />
+$(&quot;#<span style="color:red;">webwidget_menu_glide</span>&quot;).webwidget_menu_glide({menu_width:&quot;100&quot;, menu_height:&quot;30&quot;, menu_text_size:&quot;15&quot;, menu_text_color:&quot;#CCC&quot;, menu_sprite_color:&quot;#666&quot;, menu_background_color:&quot;#000&quot;, menu_margin:&quot;5&quot;, sprite_speed:&quot;normal&quot;, container:&quot;webwidget_menu_glide&quot; });<br />
+  });<br />
+  &lt;/script&gt;</p>
+<h4>parameter explanation </h4>
+<table width="600" border="1">
+  <tr>
+    <td>menu_width:</td>
+    <td >Menu width</td>
+  </tr>
+  <tr>
+    <td>menu_height:</td>
+    <td>Menu height</td>
+  </tr>
+  <tr>
+    <td>menu_text_size:</td>
+    <td>Menu text size</td>
+  </tr>
+  <tr>
+    <td>menu_text_color:</td>
+    <td>Menu text color</td>
+  </tr>
+  <tr>
+    <td>menu_sprite_color:</td>
+    <td>Animation sprite color</td>
+  </tr>
+  <tr>
+    <td>menu_background_color:</td>
+    <td>Menu background color</td>
+  </tr>
+  <tr>
+    <td>menu_margin:</td>
+    <td>Menu margin</td>
+  </tr>
+  <tr>
+    <td>sprite_speed:</td>
+    <td>Animation speed (option:  slow, normal,fast,no-wait )</td>
+  </tr>
+</table>
+More script and css style
+: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery plugins,Javascript,CSS,CSS3,Html5 Library">www.htmldrive.net </a>
+</body>
+</html>

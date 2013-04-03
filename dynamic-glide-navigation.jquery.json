@@ -1,0 +1,31 @@
+{
+    "name": "jquery-dynamic-glide-navigation",
+    "version": "1.1.0",
+    "title": "Dynamic glide navigation jQuery plugin",
+    "author": {
+        "name": "Htmldrive.net",
+        "url": "http://www.htmldrive.net"
+    },
+    "licenses": [
+        {
+            "type": "apache",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.6.1"
+    },
+    "keywords": [
+        "jquery",
+        "navigation",
+        "slider",
+        "animation",
+        "ui",
+        "image",
+        "menu"
+    ],
+    "homepage": "https://github.com/htmldrive/jquery-dynamic-glide-navigation",
+    "demo": "http://www.htmldrive.net/items/demo/71/Dynamic-glide-navigation-with-jQuery-plugin",
+    "download": "https://github.com/htmldrive/jquery-dynamic-glide-navigation",
+    "bugs": "https://github.com/htmldrive/jquery-dynamic-glide-navigation/issues"
+}
